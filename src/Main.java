@@ -6,7 +6,7 @@ public class Main {
         int bonus;
         int total;
 
-        if (deposit < 1000) {
+        if (deposit <= 1000) {
             bonus = 0;
             total = initialAccount + deposit + bonus;
             System.out.println("Общий баланс:" + total);
